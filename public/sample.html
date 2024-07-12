@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Information Sheet</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <style>
+    .header {
+      background: linear-gradient(to right, #00aaff, #0044cc);
+      color: white;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .header img {
+      width: 50px;
+      height: auto;
+      margin-right: 10px;
+    }
+    .header h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+    .carousel-inner img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .sidebar .list-group-item {
+      border: none;
+      padding-left: 0;
+    }
+    .pagination {
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid header text-center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/800px-Flag_of_Myanmar.svg.png" alt="Myanmar Flag">
+    <h1>Information Sheet</h1>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Myanmar 2021</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">သတင်းများ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ဝန်ကြီးဌာနများ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">မြန်မာ့စီးပွားရေး</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">တရားစီရင်ရေးနှင့်ဥပဒေများ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">စစ်ရေး/လုံခြုံရေး</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8 content">
+        <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://i.pinimg.com/736x/8b/69/aa/8b69aa340c58bcfa404f2ad93eca8114.jpg" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First Slide Title</h5>
+                <p>First slide description.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/originals/b6/62/f7/b662f714adcc982517a43838c979a461.jpg" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second Slide Title</h5>
+                <p>Second slide description.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ4jgVtD9S5EgYcjws8K6k1sT4gHdDN_IFHQ&s" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third Slide Title</h5>
+                <p>Third slide description.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 sidebar">
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action">ဖွင့်ပွဲဆိုင်ရာ...</a>
+          <a href="#" class="list-group-item list-group-item-action">နိုင်ငံတော်အစိုးရအဖွဲ့...</a>
+          <a href="#" class="list-group-item list-group-item-action">ပြည်ထောင်စုလွှတ်တော်...</a>
+          <a href="#" class="list-group-item list-group-item-action">နိုင်ငံတော်သမ္မတ...</a>
+          <a href="#" class="list-group-item list-group-item-action">စီမံကိန်းနှင့်ဘဏ္ဍာရေး...</a>
+        </div>
+        <nav aria-label="Page navigation" class="mt-3">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">6</a></li>
+            <li class="page-item"><a class="page-link" href="#">7</a></li>
+            <li class="page-item"><a class="page-link" href="#">8</a></li>
+            <li class="page-item"><a class="page-link" href="#">9</a></li>
+            <li class="page-item"><a class="page-link" href="#">next</a></li>
+            <li class="page-item"><a class="page-link" href="#">last</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
