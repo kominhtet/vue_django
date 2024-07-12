@@ -1,5 +1,5 @@
 const api = {
-  API_URL: "http://43.231.66.174:8000/"
+  API_URL: "http://89.116.159.198:8000/"
 };
 
 export default api;
